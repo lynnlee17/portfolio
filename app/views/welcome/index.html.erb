@@ -1,30 +1,33 @@
-<h1>Hello, Rails!</h1>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-<title>loveleeshot</title>
+<link rel="stylesheet" href="/assets/stylesheets/jquery.bxslider.css">
+<script src="/assets/javascripts/jquery.bxslider.js"></script>
+<!-- <title>loveleeshot</title> -->
+<%= stylesheet_link_tag    "/app/assets/stylesheets/jquery.bxslider.css" %>
+<%= javascript_include_tag "/app/assets/javascripts/jquery.bxslider.js" %>
+
+<script>
+    $(document).ready(function(){
+        $('.slider').bxSlider({
+        	mode: 'fade',
+        	auto: true,
+  			slideWidth: 800
+        });
+
+
+    });
+ 
+
+</script>
 
 <body>
-
-	<div class="nav">
-		<div class="title">
-			Lynn JiYoung Lee
-		</div>
-		<div class="menu home">
-			<a href="/">Home</a>
-		</div>
-		<div class="menu about">
-			<a href="/about">About</a>
-		</div>
-		<div class="menu photo">
-			<a href="/photo">Photos</a>
-		</div>
-		<div class="menu blog">
-			<%= link_to 'Blog', controller: 'articles' %>
-			<!-- <a href="/articles">Blog</a> -->
-		</div>
-		<div class="menu contact">
-			<a href="/contact">Contact Me</a>
-		</div>
+<div class="container">
+	<div class="slider">
+	    <div><img src="/assets/busan.jpg" style="width: 800px;"></div>
+	    <div><img src="/assets/vermont.jpg"style="width: 800px;"></div>
 	</div>
+</div>
+
 
 </body>
 
