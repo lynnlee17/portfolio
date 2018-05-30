@@ -11,17 +11,22 @@
 h1 {
 	text-align: center;
 }
-
 .nav {
-font-family: 'PT Serif', serif;
+	width: 60%;
+	margin: 0 auto;
+}
+.div {
+	
+	font-family: 'PT Serif', serif;
 	// padding-top: 15px;
 	font-weight: extra-light;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 }
 
+
 .menu {
-	margin: 25px 25px;
+	
 	font-size: 15px;
 	a {
 		text-decoration: none;
@@ -31,4 +36,30 @@ font-family: 'PT Serif', serif;
 
 .container {
     width: 100%;
+}
+
+
+
+//ABOUT PAGE
+.main-body {
+	margin-top: 50px;
+	
+}
+
+
+.photo {
+	display: flex;
+	justify-content: center;
+}
+
+.photo img {
+
+	width: 800px;
+	height: 533.33px;
+	margin-bottom: 20px;
+}
+
+p {
+	text-align: center;
+	margin: 0 30%;
 }

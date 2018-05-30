@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   resources :articles do
     resources :comments
   end
+  get '/:page' => 'pages#show'
 
   root 'welcome#index'
 end
