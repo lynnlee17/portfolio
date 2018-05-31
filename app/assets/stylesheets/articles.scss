@@ -9,3 +9,33 @@
 h1 {
 	color: orange
 }
+
+.body {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-decoration: none;
+
+}
+.articles {
+    a{
+
+    text-decoration: none;
+    color: black;
+    }
+    a:hover {
+        color: gray;
+    }
+}
+.article {
+    width: 70%;
+    border: 1px solid pink;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.a-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}

@@ -3,21 +3,26 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import url('https://fonts.googleapis.com/css?family=Nunito');
-@import url('https://fonts.googleapis.com/css?family=Nunito|PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 * {
-	//font-family: 'Nunito', sans-serif;
+	font-family: 'PT Serif', serif;
 }
 h1 {
 	text-align: center;
+	color: #730E15;
+	font-family: 'Pacifico', cursive;
 }
 .nav {
 	width: 60%;
+	max-width: 700px;
 	margin: 0 auto;
+	margin-bottom: 50px;
 }
 .div {
 	
-	font-family: 'PT Serif', serif;
+	font-family: 'Nunito', sans-serif;
 	// padding-top: 15px;
 	font-weight: extra-light;
 	display: flex;
@@ -54,8 +59,9 @@ h1 {
 
 .photo img {
 
-	width: 800px;
-	height: 533.33px;
+	width: 60%;
+	max-width: 700px;
+	height: 50%;
 	margin-bottom: 20px;
 }
 
