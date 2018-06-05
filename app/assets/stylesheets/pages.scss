@@ -2,6 +2,19 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+// about.html
+
+.photo img {
+    border-radius: 50%;
+}
+
+.body1 {
+    font-size: 15px;
+}
+
+
+// photos.html
 .photogrids {
     display: flex;
     justify-content: space-around;

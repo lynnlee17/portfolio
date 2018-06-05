@@ -1,25 +1,30 @@
 <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/fonts/fonts.min.css" />
 
 <div class="title">
-    <h1>loveleeshot</h1>
-  </div>
-  <div class="nav">
-  <div class="div">
-  <div class="menu home">
-    <a href="/">Home</a>
-  </div>
-  <div class="menu about">
-    <a href="/about">About</a>
-  </div>
-  <div class="menu photo">
-    <a href="/photos">Gallery</a>
-  </div>
-  <div class="menu blog">
-    <%= link_to 'Blog', controller: 'articles' %>
-    <!-- <a href="/articles">Blog</a> -->
-  </div>
-  <div class="menu contact">
-    <a href="/contact">Contact</a>
+  <h1>loveleeshot</h1>
+  <div class="burger">
+    <%= image_tag "burger.png" %>
   </div>
 </div>
+<div class="nav">
+  <div class="div">
+    <div class="menu home">
+      <a href="/">Home</a>
+    </div>
+    <div class="menu about">
+      <a href="/about">About</a>
+    </div>
+    <div class="menu photo">
+      <a href="/photos">Gallery</a>
+    </div>
+    <div class="menu blog">
+      <%= link_to 'Blog', controller: 'articles' %>
+      <!-- <a href="/articles">Blog</a> -->
+    </div>
+    <div class="menu contact">
+      <a href="/contact">Contact</a>
+    </div>
+
+  </div>
 </div>
