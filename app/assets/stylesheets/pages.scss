@@ -28,6 +28,9 @@
         justify-content: center;
     }
 }
+a:link {
+    text-decoration: none;
+}
 .grid {
     width: 300px;
     height: 300px;
@@ -38,4 +41,45 @@
     align-items: center;
     color: white;
     
+    font-size: 20px;
 }
+
+.grid1 {
+    background: url('boston/jin.jpg') no-repeat center center;
+    background-size: 342px 513px;    
+}
+
+.grid1:hover {
+    opacity: 0.9;
+}
+
+.grid-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    letter-spacing: .2em;
+}
+//layout
+.layout {
+    display: flex;
+    flex-flow: row wrap;
+}
+.photo-col {
+    margin: 0 100px;
+    ul {
+        li {
+            list-style: none;
+            img {
+                width: 600px;
+                margin: 10px 0;
+            }
+
+        }
+    }
+}
+
+.text-col {
+    margin: 10px 100px 0 0;
+    width: 20%;
+}
+    

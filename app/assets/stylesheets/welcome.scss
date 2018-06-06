@@ -103,6 +103,19 @@ p {
 		}
 
 	}
+
+	.div {
+		// padding-top: 15px;
+		font-weight: extra-light;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+
+		.menu {
+			width: 100%;
+			height: 10px;
+		}
+	}
 }
 
 

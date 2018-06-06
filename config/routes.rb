@@ -8,6 +8,8 @@ Rails.application.routes.draw do
     resources :comments
   end
   get '/:page' => 'pages#show'
+  get '/photos/:page' => 'pages#view'
+
 
   root 'welcome#index'
 end
