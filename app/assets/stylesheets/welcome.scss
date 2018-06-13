@@ -109,11 +109,15 @@ p {
 		font-weight: extra-light;
 		width: 100%;
 		display: flex;
-		justify-content: center;
+		justify-content: unset;
+		flex-flow: row wrap;
 
 		.menu {
+			margin: 0px;
 			width: 100%;
-			height: 10px;
+			a {
+				width: 100%;
+			}
 		}
 	}
 }
